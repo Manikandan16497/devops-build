@@ -1,5 +1,5 @@
 #!/bin/bash
-docker login -u amanikandan16497 -p dckr_pat_2S56HcG2uOxhyOd2UbVrqwAe_vg
+
 if [ $GIT_BRANCH = "dev" ]; then
     # Build your project
     sh 'chmod +x build.sh'
